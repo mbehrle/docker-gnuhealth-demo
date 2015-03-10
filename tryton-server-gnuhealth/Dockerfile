@@ -8,7 +8,7 @@ ENV T_MAJOR 3.4
 
 # Use our local cache
 #RUN echo 'Acquire::http { Proxy "http://apt-cacher:9999"; };' >> /etc/apt/apt.conf.d/01proxy (#778532)
-RUN sed -i "s/http\.debian\.net/apt-cacher:9999/" /etc/apt/sources.list
+#RUN sed -i "s/http\.debian\.net/apt-cacher:9999/" /etc/apt/sources.list
 
 # Install additional distribution packages
 # Despite not all health modules being activated on the demo database, they are all installed:
