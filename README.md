@@ -51,7 +51,7 @@ Install docker-compose refering to the [installation page](http://docs.docker.co
 Create a working directory
 
     mkdir ~/gnuhealth
-		cd gnuhealth
+    cd gnuhealth
 
 Fetch the definition file
 
@@ -61,7 +61,7 @@ Run
 
     docker-compose up
 
-get yourself a cup of coffee...
+and get yourself a cup of coffee...
 
 The first setup will take some time for
 
@@ -69,6 +69,7 @@ The first setup will take some time for
 * importing the GNUHealth demo database
 
 Subsequent calls to `docker-compose up` will run much faster.
+Stop the servers with Ctrl+C.
 
 As soon as the servers have started up you can connect with the Tryton client using the credentials
 as described in the [GNUHealth documentation](http://en.wikibooks.org/wiki/GNU_Health/The_Demo_database#Online_Demo_Database)
