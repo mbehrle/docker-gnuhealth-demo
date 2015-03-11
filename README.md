@@ -95,12 +95,11 @@ Todo
 ## Authors and Credits
 
 This setup was made by [MBSolutions](http://www.m9s.biz) in the hope, that it may be useful
-for the GNUHealth users. Thanks to the GNUHealth community to provide this free
-Health and Hospital Information System.
+for the GNUHealth users. Thanks to the [GNUHealth project](http://health.gnu.org/)
+for providing this free Health and Hospital Information System.
 
-Parts of the setup were adopted from
+Parts of this setup were adopted from
 
-* [tryton](https://github.com/openlabs/tryton) by [Openlabs](http://www.openlabs.co.in).
 * [postgres](https://github.com/docker-library/postgres/) by [Docker Official Image Packaging for Postgres](https://github.com/docker-library/postgres/).
 
 
