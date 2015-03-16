@@ -1,8 +1,7 @@
 FROM postgres:9.4
 
 # Use our local cache
-#RUN echo 'Acquire::http { Proxy "http://apt-cacher:9999"; };' >> /etc/apt/apt.conf.d/01proxy (#778532)
-#RUN sed -i "s/http\.debian\.net/apt-cacher:9999/" /etc/apt/sources.list
+#RUN echo 'Acquire::http { Proxy "http://apt-cacher:9999"; };' >> /etc/apt/apt.conf.d/01proxy
 
 #VOLUME /var/lib/postgresql
 RUN apt-get update && apt-get install -y --no-install-recommends \
