@@ -1,8 +1,8 @@
 # Docker Setup for GNUHealth Demoserver
 
 This Docker Setup provides a quick and easy way to get a
-[GNUHealth](http://www.gnuhealth.org/index.html) demo server
-up and running with only a few steps. 
+[GNU Health](http://www.gnuhealth.org/index.html) demo server
+up and running with only a few steps.
 Furthermore this docker setup may be used as a base to create your
 own docker based environment for production use.
 
@@ -66,13 +66,13 @@ and get yourself a cup of coffee...
 The first setup will take some time for
 
 * downloading the images
-* importing the GNUHealth demo database
+* importing the GNU Health Demo database
 
 Subsequent calls to `docker-compose up` will run much faster.
 Stop the servers with Ctrl+C.
 
 As soon as the servers have started up you can connect with the Tryton client using the credentials
-as described in the [GNUHealth documentation](http://en.wikibooks.org/wiki/GNU_Health/The_Demo_database#Online_Demo_Database)
+as described in the [GNU Health documentation](http://en.wikibooks.org/wiki/GNU_Health/The_Demo_database#Online_Demo_Database)
 with the only difference that you put in your own machine as the server (localhost, if you are
 running the client on the same machine)
 
@@ -95,7 +95,7 @@ Todo
 ## Authors and Credits
 
 This setup was made by [MBSolutions](http://www.m9s.biz) in the hope, that it may be useful
-for the GNUHealth users. Thanks to the [GNUHealth project](http://health.gnu.org/)
+for the GNU Health users. Thanks to the [GNU Health project](http://health.gnu.org/)
 for providing this free Health and Hospital Information System.
 
 Parts of this setup were adopted from
