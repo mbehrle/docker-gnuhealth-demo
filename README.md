@@ -41,7 +41,11 @@ Add the user that will use docker (i.e. yourself) to the docker group
 
 Note: You may have to relogin before the group settings will take effect.
 
-Install docker-compose refering to the [installation page](http://docs.docker.com/compose/install/) e.g.
+Get docker-compose on a recent Debian system with
+
+    sudo apt-get install docker-compose
+
+or install docker-compose refering to the [installation page](http://docs.docker.com/compose/install/) e.g.
 
     curl -L https://github.com/docker/compose/releases/download/1.1.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
     chmod +x /usr/local/bin/docker-compose
