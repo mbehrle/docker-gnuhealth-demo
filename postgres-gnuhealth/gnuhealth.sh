@@ -7,7 +7,7 @@ if [ "$GNUHEALTH_PASSWORD" ]; then
 else
     PASS="PASSWORD '$GNUHEALTH_USER'"
 fi
-: ${GNUHEALTH_DB:=health28}
+: ${GNUHEALTH_DB:=health30}
 : ${DB_ENCODING:=UTF-8}
 : ${DB_DUMPFILE:=/demo.sql.gz}
 

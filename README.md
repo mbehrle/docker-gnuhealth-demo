@@ -81,11 +81,11 @@ with the only difference that you put in your own machine as the server (localho
 running the client on the same machine)
 
     Server: <your_machine>:8000
-    Database: health28
+    Database: health30
     User name: admin
     Password: gnusolidario
 
-Note: The version of the Tryton client must match the version of the server (3.4.x).
+Note: The version of the Tryton client must match the version of the server (3.8.x).
 A suitable client can be installed from distribution packages of your distribution or from the
 [Tryton download site](http://www.tryton.org/download.html) for OS X or Windows binaries.
 

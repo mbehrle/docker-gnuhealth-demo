@@ -1,6 +1,6 @@
 db:
   #build: postgres-gnuhealth
-  image: mbsolutions/postgres-gnuhealth:2.8
+  image: mbsolutions/postgres-gnuhealth:3.0
   volumes:
     - ./postgresql-data:/var/lib/postgresql/data
   environment:
@@ -8,7 +8,7 @@ db:
 
 tryton:
   #build: tryton-server-gnuhealth
-  image: mbsolutions/tryton-server-gnuhealth:3.4
+  image: mbsolutions/tryton-server-gnuhealth:3.8
   volumes:
     - ./tryton-data:/var/lib/tryton
   environment:
