@@ -1,3 +1,5 @@
+# Please do not use any more this setup, it is currently not mantained.
+
 # Docker Setup for GNUHealth Demoserver
 
 This Docker Setup provides a quick and easy way to get a
